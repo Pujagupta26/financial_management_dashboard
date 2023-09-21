@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.3.0/dist/echarts.min.js"></script>
+    <link rel="stylesheet" href="graph.css">
+   
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Financial Management</h1>
+        </header>
+        <div class="item item1">
+            <div>
+                Total Accounts Receivable
+            </div>
+            <div>
+                $6,621,280
+            </div>
+        </div>
+        <div class="item item2">
+            <div>
+                Total Accounts Payable
+            </div>
+            <div>
+                $1,630,270
+            </div>
+
+
+        </div>
+        <div class="item item3">
+            <div>
+                Equity Ratio
+            </div>
+            <div>
+                75.38 %
+            </div>
+
+
+        </div>
+        <div class="item item4">
+            <div>
+                Debt Equity
+            </div>
+            <div>
+                1.10 %
+            </div>
+        </div>
+        <div class="item item5">Total Accounts Receivable and Payable Aging
+
+
+            <div id="bar-chart" style="width: 600px; height: 400px;"></div>
+
+        
+        </div>
+        <div class="item item6">Current Ratio
+
+            <div id="currentRatioChart" style="width: 400px; height: 400px;"></div>
+        </div>
+
+        <div class="item item7">Days Sales Inventory
+
+            <div id="daysSalesChart" style="width: 400px; height: 400px;"></div>
+        </div>
+        <div class="item item8">Day Sales Outstanding
+            <div id="daysSalesOutstanding" style="width: 400px; height: 400px;"></div>
+
+        </div>
+        <div class="item item9">Days Pay Outstanding
+            <div id="daysPayOutstanding" style="width: 400px; height: 400px;"></div>
+
+        </div>
+        <div class="item item10">Profit and Loss summary
+
+            <div id="chart" style="width: 600px; height: 400px;"></div>
+            
+        </div>
+        <div class="item item11">Net Working Capital vs Gross Working Capital
+
+            <div id="stacked-column-chart" style="width: 600px; height: 400px;"></div>
+            
+        </div>
+
+        <footer>
+            <p>Footer</p>
+        </footer>
+    </div>
+
+
+    <script src="graph.js"></script>
+</body>
+
+</html>
